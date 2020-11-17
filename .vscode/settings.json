@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "node_modules":true,
+    "yarn.lock": true,
+    "public": true,
+    "src/react-app-env.d.ts": true,
+    ".env": true,
+    ".gitignore": true,
+    "tsconfig.json": true,
+    "tslint.json": true,
+    "src/index.tsx":true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "mini-gauges",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/d3": "^6.1.0",
+    "@types/react": "^16.9.56",
+    "@types/react-dom": "^16.9.9",
+    "d3": "^6.2.0",
+    "eslint": "^6.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3",
+    "sciator-core": "^1.1.0",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "tslint -c tslint.json ./src/**/*.ts{,x}",
+    "lint:fix": "yarn lint --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tslint": "^6.1.3"
+  }
+}
