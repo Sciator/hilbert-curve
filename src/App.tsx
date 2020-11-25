@@ -99,6 +99,14 @@ export const arrowsToPoints = (arr: EArrow[]): Point[] => {
   return points;
 };
 
+const findIndex = (x: number, y: number, n: number) =>
+  arrowsToPoints(
+    instructionToArrows(
+      hilbert(n)))
+    .find((p) => p.x === x && p.y === y)
+  ;
+
+
 export const pointsToLines = (arr: Point[]): [Point, Point][] => range(arr.length - 1).map(x => [arr[x], arr[x + 1]]);
 
 
